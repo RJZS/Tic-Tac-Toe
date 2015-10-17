@@ -1,0 +1,28 @@
+/* Grid formatting */
+#grid {
+	line-height: 0px;
+	width: 180px;
+	height: 180px;
+}
+.square {
+	width: 60px;
+	height: 60px;
+	border: 1px solid black;
+	box-sizing: border-box;
+	display: inline-block;
+	line-height: 60px;
+	font-size: 60px;
+	/* stops the snake from affecting the positioning of the square it's in */
+	vertical-align: top;
+}
+.row {
+	margin: 0;
+	display: block;
+}
+/* Page formatting */
+#main {
+	margin: 0 auto;
+	max-width: 180px;
+	text-align: center;
+	position: relative;
+}
